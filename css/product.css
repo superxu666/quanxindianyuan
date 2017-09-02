@@ -1,0 +1,63 @@
+
+
+#product-banner {
+	height: 260px;
+	background: url(../images/product/banner.jpg) no-repeat;
+	margin: 1px 0 20px;
+}
+.article .product-content {
+	padding: 20px;
+}
+.article .product-content li {
+	float: left;
+	margin-bottom: 20px;
+}
+.product-content li a {
+	display: block;
+}
+.product-content li a img {
+	width: 246px;
+	height: 254px;
+}
+.product-content li a p {
+	width: 246px;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	background: #15acff;
+	color: #fff;
+}
+
+.aside .title li .active {
+	color: #fff;
+	background: #15acff;
+	background: url(../images/about/min-li-bg-click.png) no-repeat 21px center #15acff;
+}
+
+
+/*产品详情*/
+.prodetail-content {
+	padding: 0 10px;
+}
+.prodetail-content .propic {
+	width: 100%;
+	text-align: center;
+	padding: 20px 0;
+}
+.prodetail-content .propic-name {
+	height: 40px;
+	line-height: 40px;
+	background: #a5a5a5;
+	color: #fff;
+	text-align: center;
+}
+.prodetail-content .pic-text p,
+.prodetail-content .pic-text img {
+	padding: 20px 0;
+}
+.prodetail-content .pic-text img {
+	width: 100%;
+}
+
+
+

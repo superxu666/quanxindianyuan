@@ -1,0 +1,81 @@
+
+#about-banner {
+	height: 260px;
+	background-image: url(../images/about/banner.jpg);
+	background-repeat: no-repeat;
+	margin: 1px 0 20px;
+}
+
+.article .about-content {
+	background: #f9f9f9;
+	color: #666;
+	min-height: 200px;
+	padding: 0 10px;
+}
+
+.article .about-content p,
+.article .about-content img {
+	padding: 20px 0;
+}
+.article .about-content img {
+	width: 100%;
+}
+
+.aside .title li .active {
+	color: #fff;
+	background: #15acff;
+	background: url(../images/about/min-li-bg-click.png) no-repeat 21px center #15acff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

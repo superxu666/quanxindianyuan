@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+body,ul,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
+
+body{font-size:12px; font-family: "Microsoft YaHei";}
+
+img{border:none; vertical-align: middle;}
+
+li{list-style:none;}
+
+input,select,textarea{outline:none; border: none; background: none;}
+
+textarea{resize:none;}
+
+a{text-decoration:none; color: #656565;}
+a:hover{text-decoration: none;}
+
+/*清除浮动*/
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.clearfix{
+	zoom:1;
+}
+
+.fl{float: left;}
+.fr{float: right;}
+
+
+
+
+
+
+/*共用样式*/
+#public-wrap {
+	width: 100%;
+}
+#public-wrap .wrap-cont {
+	width: 1100px;
+	margin: 0 auto;
+}
+#public-wrap .wrap-cont .aside {
+	width: 260px;
+	float: left;
+}
+.aside .title h1 {
+	height: 100px;
+	line-height: 100px;
+	border-bottom: 1px solid #fff;
+	color: #fff;
+	background-color: #15acff;
+	text-align: center;
+}
+.aside .title li a {
+	display: block;
+	height: 46px;
+	line-height: 46px;
+	padding-left: 55px;
+	border-bottom: 1px solid #fff;
+	background: url(../images/about/min-li-bg.png) no-repeat 21px center #f6f6f6;
+}
+.aside .title li a:hover {
+	color: #fff;
+	background: url(../images/about/min-li-bg-click.png) no-repeat 21px center #15acff;
+}
+.aside .callme dt {
+	padding-left: 21px;
+	height: 42px;
+	line-height: 42px;
+	color: #fff;
+	background: #15acff;
+	margin-top: 19px;
+}
+.aside .callme .service {
+	height: 62px;
+	background: url(../images/about/service.jpg) no-repeat;
+	padding: 38px 0 0 21px;
+}
+.aside .callme .callme-cont {
+	background: #f6f6f6;
+	padding-top: 15px;
+	padding-bottom: 13px;
+}
+.aside .callme .callme-cont p {
+	padding-left: 21px;
+	color: #666;
+	line-height: 23px;
+}
+#public-wrap .wrap-cont .article {
+	width: 820px;
+	float: right;
+}
+.article .top {
+	background: #15acff;
+	color: #fff;
+	font-size: 16px;
+	height: 42px;
+	line-height: 42px;
+	padding: 0 15px;
+}
+.article .top div {
+	float: right;
+}
+.article .top span,
+.article .top a,
+.article .top strong {
+	font-size: 12px;
+	color: #fff;
+	vertical-align: top;
+	display: inline-block;
+}
+.article .top a {
+}
+.article .top a:hover {
+	text-decoration: underline;
+}
+.article .top strong {
+	font-weight: normal;
+	margin: 0 6px;
+}
+
+
+/*导航公共样式*/
+#nav .pro-win {
+	position: absolute;
+	border-top: 1px solid #fff;
+	margin-left: -274px;
+	z-index: 2;
+}
+.pro-win .win-l {
+	float: left;
+	width: 280px;
+	height: 206px;
+	padding-top: 86px;
+	background: url(../images/product-bg.jpg) no-repeat;
+}
+.pro-win .win-l a em {
+	font-style: normal;
+	color: #e91b0c;
+	margin-right: 10px;
+}
+.pro-win .win-l a {
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	color: #333333;
+	padding-left: 42px;
+	cursor: pointer;
+}
+.pro-win .win-l a:hover {
+	color: #e91b0c;
+	background: #eaedef;
+}
+.pro-win .win-r {
+	float: left;
+	width: 820px;
+	background: #f0f0f0;
+}
+.pro-win .hide
+{
+	display: none;
+}
+.pro-win .win-r li {
+	float: left;
+	width: 127px;
+	height: 100px;
+	padding: 25px 18px 20px;
+	border-right: 1px solid #c8c8c8;
+	border-bottom: 1px solid #c8c8c8;
+}
+.pro-win .win-r li a {
+	display: block;
+	cursor: pointer;
+}
+.pro-win .win-r li a p {
+	text-align: center;
+	margin-top: 26px;
+}
+
+
+
+

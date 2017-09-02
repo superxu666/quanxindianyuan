@@ -1,0 +1,42 @@
+
+
+#support-banner {
+	height: 260px;
+	background: url(../images/support/banner.jpg) no-repeat;
+	margin: 1px 0 20px;
+}
+
+
+.article .support-content {
+	padding: 10px;
+	background: #fbfbfb;
+}
+
+.support-content li {
+	float: left;
+	margin: 10px 54px;
+}
+.support-content li img {
+	margin-bottom: 10px;
+}
+.support-content li a {
+	display: block;
+	width: 123px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 30px;
+	color: #fff;
+	background: #15acff url(../images/support/download-min.png) no-repeat 10px center;
+}
+.support-content li a:hover {
+	text-decoration: underline;
+}
+
+
+.aside .title li .active {
+	color: #fff;
+	background: #15acff;
+	background: url(../images/about/min-li-bg-click.png) no-repeat 21px center #15acff;
+}

@@ -1,0 +1,78 @@
+
+
+#news-banner {
+	height: 260px;
+	background: url(../images/news/banner.jpg) no-repeat;
+	margin: 1px 0 20px;
+}
+
+.article .news-content li {
+	height: 33px;
+	line-height: 33px;
+	border-bottom: 1px dotted #c5c5c5;
+	padding: 0 10px;
+}
+.news-content li a {
+	display: inline-block;
+	padding-left: 11px;
+	height: 100%;
+	background: url(../images/news/lidot.png) no-repeat 1px center;
+}
+.news-content li span {
+	float: right;
+}
+
+.news-content .pagenum {
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+}
+.news-content .pagenum a {
+	display: inline-block;
+	padding: 10px 15px;
+	background: #a0a0a0;
+	margin: 0 6px;
+	color: #fff;
+}
+.news-content .pagenum a:hover,
+.news-content .pagenum .active {
+	background: #15acff;
+}
+
+
+.aside .title li .active {
+	color: #fff;
+	background: #15acff;
+	background: url(../images/about/min-li-bg-click.png) no-repeat 21px center #15acff;
+}
+
+
+/*详情*/
+.newsdetail-content {
+	padding: 0 10px;
+}
+.newsdetail-content h1 {
+	text-align: center;
+}
+.newsdetail-content img {
+	width: 100%;
+}
+.newsdetail-content p,
+.newsdetail-content img {
+	padding: 20px 0;
+}
+.newsdetail-content .pagenum {
+	text-align: center;
+}
+.newsdetail-content .pagenum a {
+	display: inline-block;
+	color: #fff;
+	background: #a0a0a0;
+	margin: 0 3px;
+	padding: 10px 15px;
+}
+
+
+
+
+
